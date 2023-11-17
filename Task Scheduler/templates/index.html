@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Task Scheduler</title>
+    <link rel="stylesheet" href="/styles/style1.css">
+</head>
+<body>
+    <div id="taskform">
+        <div id="createtask">
+            <h2>Create Task</h2>
+            <input type="text" id="taskName" placeholder="Enter a task" required>
+            <input type="date" id="taskDate" >
+            <input type="time" id="taskTime" >
+            <label for="notify">Notify me:</label>
+            <input type="checkbox" id="notify"><br>
+            <button type="button" onclick="scheduleTask()">Schedule Task</button>
+        </div>
+    </div>
+
+    <script src="/script/scp1.js"></script>
+</body>
+</html>
